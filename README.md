@@ -2,7 +2,7 @@
 
 This project includes multiple modules for autonomous racing. It integrates everything from sensor data processing to motion planning, allowing you to control a self-driving car in real-world and simulated environments.
 
-## 🚀 Key Components:
+##  Components:
 - **Automatic Emergency Braking (AEB)**:
   - **aeb.py**: Detects obstacles and triggers emergency braking.
   - **lidar_processing.py**: Processes Lidar data to detect obstacles.
@@ -32,11 +32,11 @@ This project includes multiple modules for autonomous racing. It integrates ever
 - **Robot Ethics**:
   - **ethics_module.py**: Implements decision-making constraints in autonomous driving scenarios.
 
-## 🛠️ How to Use:
+## How to Use:
 1. Clone the repository.
 2. Set up your sensors and the robot.
 3. Run the specific scripts to test each module.
 
-## 📦 Requirements:
+## Requirements:
 - Python 3.x
 - ROS (Robot Operating System)
