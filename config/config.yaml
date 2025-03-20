@@ -1,0 +1,11 @@
+# config/config.yaml
+astar:
+  heuristic_weight: 1.0
+  max_iterations: 1000
+
+lane_detection:
+  model_path: "models/lane_detection_model.h5"
+
+lidar:
+  max_range: 100.0
+  angle_resolution: 0.1
