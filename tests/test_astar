@@ -1,0 +1,15 @@
+# tests/test_astar.py
+import pytest
+from src.astar import AStar  # Adjust import based on actual class
+
+def test_astar_initialization():
+    astar = AStar()
+    assert astar is not None
+
+def test_astar_algorithm():
+    astar = AStar()
+    start = (0, 0)
+    end = (5, 5)
+    path = astar.find_path(start, end)
+    assert path is not None
+    assert len(path) > 0
