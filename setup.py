@@ -3,9 +3,9 @@ from setuptools import setup
 package_name = 'ros2_project'
 
 setup(
-    name=package_name,
+    name=f1tenth,
     version='0.0.1',
-    packages=[package_name],
+    packages=[f1tenth],
     install_requires=[
         'setuptools',
         'rclpy',  # ROS 2 Python client library
@@ -17,10 +17,10 @@ setup(
         ('share/ament_index/resource_index/packaged_share', ['package.xml']),
     ],
     zip_safe=True,
-    author='Your Name',
-    author_email='your_email@example.com',
+    author='Joseph Black',
+    author_email='jrb00013wvu@gmail.com',
     description='ROS 2 project for autonomous system algorithms.',
-    long_description='A more detailed description of the project.',
+    long_description='Written, Integrated, Tested, and Maintained by Joe Black ',
     long_description_content_type='text/markdown',
     keywords='ROS 2, autonomous vehicles, machine learning',
     classifiers=[
