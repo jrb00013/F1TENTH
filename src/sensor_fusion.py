@@ -1,6 +1,6 @@
 import numpy as np
 
-def fuse_sensors(lidar_data, camera_data):
+def senso(lidar_data, camera_data):
     lidar_points = np.array([data['distance'] for data in lidar_data])
     camera_features = np.array([data['feature'] for data in camera_data])
     
