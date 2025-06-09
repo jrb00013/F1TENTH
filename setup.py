@@ -8,10 +8,10 @@ setup(
     packages=[f1tenth],
     install_requires=[
         'setuptools',
-        'rclpy',  # ROS 2 Python client library
-        'numpy',  # Example dependency, adjust as needed
-        'tensorflow',  # For machine learning models, if you're using them
-        'opencv-python',  # If you're doing image processing (like lane detection)
+        'rclpy',  
+        'numpy', 
+        'tensorflow', 
+        'opencv-python',  
     ],
     data_files=[
         ('share/ament_index/resource_index/packaged_share', ['package.xml']),
