@@ -4,7 +4,6 @@ from rclpy.node import Node
 import numpy as np
 import math
 import time
-# TODO: include needed ROS msg type headers and libraries
 from sensor_msgs.msg import LaserScan
 from nav_msgs.msg import Odometry
 from ackermann_msgs.msg import AckermannDriveStamped, AckermannDrive
