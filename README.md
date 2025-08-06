@@ -24,13 +24,14 @@ This project includes multiple modules for an autonomous racecar.
 ## Requirements:
 
 # Hardware / Physical Car Components
-(you can buy a kit online from Penn University at the University of Pennsylvania's website for around $4000 USD or build all of the following yourself for around $2500)
+(you can buy a kit online from Penn Engineering at [!this link](https://racecarj.com/products/racecar-j-robot-f1-tenth-kit) through the University of Pennsylvania's website for around $1800 + another $1600 for the sensors and the NVIDIA Jetson as the kit does not include those components)
 
 - 1-2 Battery Packs (5000 mAh each) with a XT90 connector
 - Traxxas RC Rally Car with a Laser-Cut chassis
 - LIDAR Mounts
 - LiDAR Sensors (Hokuyo is preferred)
 - Brushless Motor
+- a USB Hub
 - Any Electronic Speed Controllers (VESC is preferred)
 -  AI GPU Computing Platform / Device (prefferably an NVIDIA Jetson TX1/TX2), but you can use a simple computing device with less effiency and potential risks like a Raspberry PI if needed
 
