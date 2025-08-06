@@ -1,42 +1,39 @@
 # F1TENTH Autonomous Racing 🏁
 
-This project includes multiple modules for autonomous racing. It integrates everything from sensor data processing to motion planning, allowing you to control a self-driving car in real-world and simulated environments.
+This project includes multiple modules for an autonomous racecar.
 
 ##  Components:
 - **Automatic Emergency Braking (AEB)**:
-  - **aeb.py**: Detects obstacles and triggers emergency braking.
-  - **lidar_processing.py**: Processes Lidar data to detect obstacles.
-  
 - **Wall Following**:
-  - **wall_follow.py**: Follows walls with PID control.
-  - **sensor_fusion.py**: Combines data from various sensors for better accuracy.
-  
 - **Follow the Gap**:
-  - **follow_gap.py**: Avoids obstacles by calculating the best path through open spaces.
-
 - **SLAM (Simultaneous Localization and Mapping)**:
-  - **slam.py**: Helps the car understand its position in the environment.
-  - **pure_pursuit.py**: Tracks paths to follow a specific route.
-
 - **Motion Planning**:
-  - **rrt.py**: Generates random paths for the car to explore.
-  - **astar.py**: Implements the A* algorithm for pathfinding.
+- **Perception & Vision / Planning**:
 
-- **Perception & Vision**:
-  - **object_detection.py**: Detects objects on the track.
-  - **lane_detection.py**: Identifies the lanes on the track.
-
-- **Perception & Planning**:
-  - **behavior_planner.py**: Decides the best actions based on perceived environment.
-
-- **Robot Ethics**:
-  - **ethics_module.py**: Implements decision-making constraints in autonomous driving scenarios.
 
 ## How to Use:
-1. Clone the repository.
-2. Set up your sensors and the robot.
-3. Run the specific scripts to test each module.
+1. Clone the repository
+2. Install ROS2 (Foxy or Galactus)
+4. Create the ROS2 Workspace
+5. Build the packages with colcon build, 
+6. Run the specific scripts within ROS2 nodes to test each module.
+7. Build your car, setting up the  Set up your sensors and a Jetson TX or another ai edge computing device. Deploy onto the hardware, run the ros2 nodes, and utilizie your control panel, interface, or controller to test the ROS2 node on the car.
+8. Or you can use the RViz Simulation Tool, configure digital sensors and define mappings for a digital car.
 
 ## Requirements:
+
+# Hardware / Physical Car Components
+(you can buy a kit online from Penn University at the University of Pennsylvania's website for around $4000 USD or build all of the following yourself for around $2500)
+
+- Traxxas RC Rally Car with a Laser-Cut chassis
+- LIDAR Mounts
+- LiDAR Sensors (Hokuyo is preferred)
+- Brushless Motor
+- Any Electronic Speed Controllers (VESC is preferred)
+-  AI GPU Computing Platform / Device (prefferably an NVIDIA Jetson TX1/TX2) but you can use a simple computing device with less effiency and potential risks like a Raspberry PI if needed.
+- 1-2  Battery Packs (5000 mAh) with a XT90 connector
+
+
+# Software
 - Python 3.x
-- ROS (Robot Operating System)
+- ROS2 Foxy, Galactus (Robot Operating System)
